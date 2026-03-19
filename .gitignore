@@ -1,0 +1,46 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
+
+# Test/cache tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project-generated plots and model artifacts
+full_year_results.png
+test_results.png
+training_curves.png
+roi_aligned_timeseries_2021_2025.csv
+*.pt
+*.pth
+*.ckpt
+
+# Optional local data dumps
+*.parquet
+*.feather
+*.h5
